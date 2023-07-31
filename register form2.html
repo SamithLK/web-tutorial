@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="rf2.css">
+    </head>
+    <body>
+        <div class="car">
+            <fieldset><legend>Car Registration</legend>
+                <table>
+                    <from action="/action_page.php" method="get" target="_blank">
+                        <tr>
+                            <td><label for="ownername">Owner Name</label></td>
+                            <td><input type="text"id="ownername"name="ownername"placeholder="Ownet Name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email</label></td>
+                            <td><input type="email"id="email"name="email"placeholder="Email"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="number">Phone<br>Number</label></td>
+                            <td><input type="number"id="number"name="number"placeholder="Phone Number"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="country">Country</label></td>
+                            <td>
+                                <select id="country"name="country">
+                                    <option value="Sri Lanka">Sri Lanka</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="model">Car Model</label></td>
+                            <td><input type="text" id="model"name="model"></td>
+                        </tr>
+                        <tr><td><label for="year">Manufacture<br>Year</label></td>
+                            <td><select name="year" id="year">
+                                <option value="sy">Select Year</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td><lable for="transmission">Transmission</lable></td>
+                            <td><input type="radio"id="manu" name="trans" value="manual">
+                            <label for="manual">Manual</label>
+                        <input type="radio" id="auto" name="trans" value="auto">
+                         <lable for="auto"> Auto</lable>
+                        </td>
+                        </tr>
+                        <tr>
+                            <td><label for="other">Other</label></td>
+                            <td><textarea name="other" id="" cols="20" rows="3"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><input type="checkbox" id="agre" name="agre">
+                            I Agree to the Condition and Terms</td>
+                        </tr>
+                </table>
+            </fieldset>
+        </div>
+    </body>
+</html>

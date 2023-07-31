@@ -1,0 +1,23 @@
+body{
+    background-color: gray;
+}
+
+
+table,th,td{
+
+    border: 1px solid black;
+    background-color: yellow;
+    font-size: 39px;
+}
+
+th{
+    background-color: white;
+
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 42px;
+
+}
